@@ -1,0 +1,86 @@
+body{
+    color:white;
+    font-family: 'DM Sans', sans-serif;
+    background-color: black;
+}
+main{
+    animation : displayBlock 1s;
+    animation-delay: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+
+main h1{
+    font-size: 4em;
+    text-align: center;
+
+}
+
+
+main a{
+    color: white;
+}
+.icon{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    transition-duration: 300ms;
+    border: 8px solid orange;
+    box-sizing: border-box;
+}
+.work-img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    transition-duration: 300ms;
+}
+.icon:hover,.work-img.link:hover{
+    opacity: 0.7;
+}
+
+.member,.work{
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+.member-name{
+    text-align: center;
+}
+.member-name p{
+    width:min(600px,90vw);
+}
+.member-name h2,.work-name h2{
+    text-align: center;
+    font-size:2em ;
+    margin-bottom: 0;
+}
+.work-name .subtitle{
+    text-align: center;
+    margin:0;
+}
+.work-name p{
+    width: 300px;
+}
+
+.icon-dev{
+    margin: 0 24px;
+}
+.social-icon{
+    width:64px;
+}
+
+
+.margin-bottom{
+    margin-bottom: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.none{
+    display: none;
+}
+
