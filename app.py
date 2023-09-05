@@ -21,4 +21,4 @@ def bc():
 
 if __name__ == "__main__":
     # webサーバー立ち上げ
-    app.run(debug=True)
+    app.run()
