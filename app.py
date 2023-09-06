@@ -2,6 +2,7 @@ import json
 from flask import Flask, jsonify, render_template
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 
 # http://127.0.0.1:5000をルートとして、("")の中でアクセスポイント指定
 # @app.route("hoge")などで指定すると、http://127.0.0.1:5000/hogeでの動作を記述できる。
