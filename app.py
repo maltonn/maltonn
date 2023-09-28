@@ -13,7 +13,7 @@ def root():
     return render_template('index.html')
 
 
-@app.route("/bc")  # buisiness card
+@app.route("/profile")  # buisiness card
 def bc():
     with open("bc.json", encoding="utf-8_sig") as f:
         data = json.load(f)
